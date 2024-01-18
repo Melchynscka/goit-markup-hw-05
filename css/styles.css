@@ -750,6 +750,8 @@ address {
   display: inline-flex;
   align-items: center;
   justify-content: center;
+}
+.checkbox-span {
   width: 16px;
   height: 16px;
   border-radius: 2px;
