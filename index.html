@@ -447,7 +447,7 @@
         </form>
       </div>
     </footer>
-    <div class="backdrop is-open">
+    <div class="backdrop ">
       <div class="modal">
         <button type="button" class="modal-close-btn">
           <svg class="icon-modal" width="8" height="8">
@@ -510,16 +510,22 @@
               placeholder="Text input"
             ></textarea>
           </div>
-          <div class="checkbox-block">
+          <div class="modal-field">
             <input
-              class="checkbox-input"
               type="checkbox"
               name="confidence"
-              value="confidence"
               id="user-accept"
+              class="checkbox-input visually-hidden"
+              value="true"
             />
-            <label class="checkbox-label" for="user-accept">I accept the terms and conditions of the
-            <a href="#" class="checkbox-accent">Privacy Policy</a>
+            <label for="user-accept" class="checkbox-label">
+              <span>
+                <svg class="check-icon" width="10" height="8">
+                <use href="./images/icons.svg#icon-vector"></use>
+              </svg>
+            </span>
+            I accept the terms and conditions of the 
+            <a href="#">Privacy Policy</a>
           </label>
           </div>
           <button class="modal-button" type="submit">Send</button>
