@@ -428,26 +428,28 @@
             </li>
           </ul>
         </div>
-        <form class="footer-form">
-          <div class="form-flex">
-          <label for="subscribe" class="footer-label">Subscribe</label>
-          <input
-            type="email"
-            name="subscribe"
-            id="subscribe"
-            placeholder="E-mail"
-            class="footer-input"
-          />
-          </div>
+        <div class="footer-form-block">
+          <p class="form-hero">Subscribe</p>
+          <form class="footer-form">
+            <label for="subscribe" class="footer-label"></label>
+            <input
+              type="email"
+              name="subscribe"
+              id="subscribe"
+              placeholder="E-mail"
+              class="footer-input"
+            />
             <button class="footer-btn-sub" type="submit">
               Subscribe
-              <svg width="24" height="24">
+              <svg class="button-image" width="24" height="24">
                 <use href="./images/icons.svg#icon-subscribe"></use>
               </svg>
-        </form>
+            </button>
+          </form>
+        </div>
       </div>
     </footer>
-    <div class="backdrop is-open">
+    <div class="backdrop">
       <div class="modal">
         <button type="button" class="modal-close-btn">
           <svg class="icon-modal" width="8" height="8">
@@ -521,12 +523,12 @@
             <label for="user-privacy" class="checkbox-label">
               <span class="checkbox-span">
                 <svg class="check-icon" width="10" height="8">
-                <use href="./images/icons.svg#icon-vector"></use>
-              </svg>
-            </span>
-            I accept the terms and conditions of the 
-            <a class="checkbox-link" href="#">Privacy Policy</a>
-          </label>
+                  <use href="./images/icons.svg#icon-vector"></use>
+                </svg>
+              </span>
+              I accept the terms and conditions of the
+              <a class="checkbox-link" href="#">Privacy Policy</a>
+            </label>
           </div>
           <button class="modal-button" type="submit">Send</button>
         </form>
