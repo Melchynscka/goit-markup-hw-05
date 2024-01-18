@@ -734,7 +734,7 @@ address {
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
-  display: inline-flex;
+  display: flex;
   align-items: center;
   cursor: pointer;
 }
@@ -745,10 +745,8 @@ address {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-span {
-  display: inline-flex;
-}
-.checkbox-span {
+
+.checkbox-span span {
   display: inline-flex;
   align-items: center;
   justify-content: center;
