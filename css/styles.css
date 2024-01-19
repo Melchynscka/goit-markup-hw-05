@@ -7,7 +7,7 @@ body {
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
-  line-height: 1.5;
+  /* line-height: 1.5; */
   letter-spacing: 0.32px;
 }
 
@@ -708,7 +708,6 @@ address {
   border: 1px solid rgba(46, 47, 66, 0.4);
   background-color: transparent;
   outline: transparent;
-  margin-bottom: 8px;
   padding: 8px 16px;
   resize: none;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -723,7 +722,9 @@ address {
   line-height: 1.17;
   letter-spacing: 0.04em;
 }
-
+.field-comment {
+  margin-bottom: 16px;
+}
 .field-checkbox {
   margin-bottom: 24px;
 }
@@ -743,9 +744,6 @@ address {
     border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-/* .checkbox-span span {
-  display: inline-flex;
-} */
 .checkbox-span {
   display: inline-flex;
   align-items: center;
