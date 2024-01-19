@@ -515,7 +515,9 @@ address {
 }
 
 /* Footer form */
-
+.footer-form-block {
+  margin-left: 80px;
+}
 .form-hero {
   color: #ffffff;
   font-family: Roboto;
@@ -552,7 +554,6 @@ address {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 16px;
   min-width: 165px;
   height: 40px;
   cursor: pointer;
@@ -660,7 +661,6 @@ address {
   border: 1px solid rgba(46, 47, 66, 0.4);
   background-color: transparent;
   outline: transparent;
-  margin-bottom: 8px;
   padding-left: 38px;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -708,7 +708,7 @@ address {
   border: 1px solid rgba(46, 47, 66, 0.4);
   background-color: transparent;
   outline: transparent;
-  margin-bottom: 16px;
+  margin-bottom: 8px;
   padding: 8px 16px;
   resize: none;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -723,9 +723,7 @@ address {
   line-height: 1.17;
   letter-spacing: 0.04em;
 }
-.field-comment {
-  margin-bottom: 16px;
-}
+
 .field-checkbox {
   margin-bottom: 24px;
 }
